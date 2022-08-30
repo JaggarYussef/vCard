@@ -73,9 +73,11 @@ h5{
     align-self: flex-end;
     justify-content: flex-end;
     justify-content: space-evenly;
-    animation: fadeIn;
+    
    
 }
+
+
 
 
 
@@ -98,8 +100,12 @@ h5{
     
     border-radius: 20%;
     object-fit: cover;
-    
-    
+
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    opacity: 0%;
    
 }
 
@@ -113,9 +119,14 @@ h5{
 
 #linked{
     width: 52px;
-    /* visibility: hidden; */
+
    
     border-radius: 50%;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0%;
     
     
 }
@@ -123,10 +134,17 @@ h5{
 #git{
     width: 52px;
     /* visibility: hidden; */
-    
+    opacity: 0%;
     border-radius: 50%;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
     
 }
+
+
+
 
 @keyframes fadeIn {
     from{
@@ -137,10 +155,6 @@ h5{
     }
     
 }
-
-
-
-
 
 
 
